@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Configure server
           command: |
-            ls
+            find
             pwd
             ansible-playbook -i inventory main-remote.yaml
 
